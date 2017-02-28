@@ -1,0 +1,32 @@
+{
+  "name": "basicallybot",
+  "version": "1.0.0",
+  "description": "An open-source Discord moderation, administration & automation bot.",
+  "main": "basicallybot.js",
+  "scripts": {
+    "test": "node basicallybot.js --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ItsBasicallyG/basicallybot.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "bot",
+    "discord"
+  ],
+  "author": "Basically Gaming",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ItsBasicallyG/basicallybot/issues"
+  },
+  "homepage": "https://github.com/ItsBasicallyG/basicallybot#readme",
+  "dependencies": {
+    "discord.js": "^11.0.0",
+    "erlpack": "github:hammerandchisel/erlpack",
+    "mongoose": "^4.8.5",
+    "node-opus": "^0.2.4",
+    "uws": "^0.13.0"
+  }
+}
